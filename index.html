@@ -407,7 +407,7 @@ class App {
     const navStyle = "color:#D7E2EA; font-weight:500; text-transform:uppercase; letter-spacing:0.05em; font-size:clamp(0.8rem,1.4vw,1.4rem); text-decoration:none;";
     const contactBtn = (extra) => '<button data-onclick="contact" style="cursor:pointer; border:none; border-radius:999px; color:#fff; font-family:\'Kanit\',sans-serif; font-weight:500; ' + extra + ' background:linear-gradient(123deg,#18011F 7%,#B600A8 37%,#7621B0 72%,#BE4C00 100%); box-shadow:0px 4px 4px rgba(181,1,167,0.25), 4px 4px 12px #7721B1 inset; outline:2px solid #fff; outline-offset:-3px;">' + esc(v.contactLabel) + '</button>';
 
-    const MARQUEE_LINKS = { 'castloop2.webp': 'https://www.castloop.ai/', 'saylo.webp': 'https://www.sayloai.com/' };
+    const MARQUEE_LINKS = { 'castloop2.webp': 'https://www.castloop.ai/', 'saylo.webp': 'https://www.sayloai.com/', 'luckytime-sm.webp': 'https://play.google.com/store/apps/details?id=com.winnersclub.empire88slots&pcampaignid=web_share' };
     const marqueeImgs = (arr) => arr.map(src => {
       const img = '<img src="' + esc(src) + '" loading="lazy" alt="" style="width:420px; height:270px; flex:0 0 auto; border-radius:16px; object-fit:cover; display:block;">';
       const name = Object.keys(IMG).find(k => IMG[k] === src);

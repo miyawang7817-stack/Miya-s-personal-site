@@ -1,4 +1,4 @@
-# Miya — Personal Site
+# Miya Protfolio
 
 Personal portfolio (bilingual 中文/EN, single static page — no build step).
 
